@@ -1,0 +1,69 @@
+body, html {height: 100%;}
+
+#particles-js {
+background: url(bg1.jpg); 
+width: 100%;
+height: 100%;
+background-position: 50% 50%;
+position: fixed;
+top: 0px;
+margin: 0;
+padding: 0;
+}
+.kutu{
+    position: absolute;
+    width: 30%;
+    height: 35%px;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: 36%;
+    backdrop-filter: blur(5px);
+    padding:40px;
+    text-align:center;
+    
+    margin-top:5%;
+    
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+.kutu img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.kutu img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size:40px;
+    letter-spacing: spacing 4px;
+    font-weight: 100;
+}
+.kutu h4{
+    font-size:14px;
+    font-weight:100px;
+    letter-spacing:3px;
+}
+.kutu p{
+    text-align: justify;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.kutu li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.kutu li a{
+    color: #fff;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+}
+.kutu li a:hover{
+    color: #b9b9b9;
+}
